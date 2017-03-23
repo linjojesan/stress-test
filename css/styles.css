@@ -1,0 +1,16 @@
+#output {
+  display: none;
+  font-family: fjalla one;
+  text-align: center;
+  font-size: 34px;
+}
+
+h1 {
+  font-family: lobster;
+  font-size: 50px;
+  font-style: italic;
+}
+
+body {
+  background-color: skyblue;
+}

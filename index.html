@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <script src="js/jquery-3.2.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Stress Questionnaire</title>
+</head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>Stress Questionairre</h1>
+    </div>
+    <div class="container">
+      <form class="well">
+        <div class="form-group" id='stress-signs'>
+          <p>These are some warning signs of stress. Please check all that apply:</p>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-signs" value="anxiety">Anxiety</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-signs" value="lack-of-concentration">Lack of Concentration</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-signs" value="irritability">Irritability</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-signs" value="difficulty-falling-aspleep">Difficulty falling asleep</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-signs" value="fatigue">Fatigue</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-signs" value="chest-pains">Chest pains, rapid heartbeat</label>
+          </div>
+        </div>
+
+        <div class="form-group" id='stress-symptoms'>
+          <p>These are some physical symptoms of stress. Please check all that apply:</p>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-symptoms" value="low energy">Low energy</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-symptoms" value="headaches">Headaches</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-symptoms" value="frequent colds">Frequent colds</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-symptoms" value="aches, pains, tense muscles">Aches, pains, tense muscles</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-symptoms" value="loss of sexual ability/desire">Loss of sexual desire/ability</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="stress-symptoms" value="upset stomache, constipation, nausea">Upset stomache, constipation, nausea</label>
+          </div>
+        </div>
+
+        <div class="form-group" id='coping-methods'>
+          <p>These are some coping methods for dealing with stress. Please check all that might already apply to you:</p>
+          <div class="checkbox">
+            <label><input type="checkbox" name="coping-methods" value="lots of sleep">Getting lots of sleep.</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="coping-methods" value="avoid drugs">Avoiding caffeine, alcohol and nicotine.</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="coping-methods" value="relaxing">Doing relaxation or meditation techniques.</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="coping-methods" value="talking">Talking to someone about what is stressing you out</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="coping-methods" value="diary">Maintaining a stress diary or venting to a diary.</label>
+          </div>
+        </div>
+
+        <button class="btn btn-info" type="submit">Help!</button>
+      </form>
+      <p id='output' class="well"></p>
+    </div>
+  </body>
+</html>
